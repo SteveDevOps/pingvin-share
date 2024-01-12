@@ -15,13 +15,15 @@ const NavbarShareMneu = () => {
         <Menu.Item component={Link} href="/account/shares" icon={<TbLink />}>
           <FormattedMessage id="navbar.links.shares" />
         </Menu.Item>
-        <Menu.Item
+       {/*  
+       Disabling reverse shares for now -- don't feel like allowing - SteveDevOps
+       <Menu.Item
           component={Link}
           href="/account/reverseShares"
           icon={<TbArrowLoopLeft />}
         >
           <FormattedMessage id="navbar.links.reverse" />
-        </Menu.Item>
+        </Menu.Item> */}
       </Menu.Dropdown>
     </Menu>
   );
